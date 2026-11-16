@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>08_テーブル「サンプル時間割」｜HTML・CSSの基礎知識</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <a href="../index.html">←インデックスへ戻る</a>
+
+            <h1>HTML・CSSの基礎知識</h1>
+        </header>
+        <main>
+            <h2>08_テーブル「サンプル時間割」</h2>
+
+            <!--学習内容↓ここから-->
+            <table border="1"><!--表に1ピクセルの枠線を付ける指定です-->
+                <tr><!--table row（行）：一行分のデータ-->
+                    <th>サンプル時間割</th><!--table heading（見出し）-->
+                    <th>月</th>
+                    <th>火</th>
+                    <th>水</th>
+                    <th>木</th>
+                    <th>金</th>
+                    <th>土</th>
+                </tr>
+                <tr>
+                    <th>1限</th>
+                    <td>情報基礎</td><!--table data（データ）-->
+                    <td rowspan="2">Java</td><!--row（行）span（範囲）→「２」つ分-->
+                    <td>Web制作</td>
+                    <td rowspan="2">演習</td>
+                    <td>ネットワーク</td>
+                    <td rowspan="2">(自習)</td>
+                </tr>
+                <tr>
+                    <th>2限</th>
+                    <td>設計</td>
+                    <!--<td>Java</td>-->
+                    <td>データベース</td>
+                    <!--<td>演習</td>-->
+                    <td>Java</td>
+                    <!--<td>(自習)</td>-->
+                </tr>
+                <tr>
+                    <th>3限</th>
+                    <td rowspan="3">-</td>
+                    <td>ランチ</td>
+                    <td>制作実習</td>
+                    <td rowspan="3">-</td>
+                    <td>ランチ</td>
+                    <td rowspan="3">-</td>
+                </tr>
+                <tr>
+                    <th>4限</th>
+                    <!--<td>-</td>-->
+                    <td>演習</td>
+                    <td rowspan="2">-</td>
+                    <!--<td>-</td>-->
+                    <td rowspan="2">Web制作</td>
+                    <!--<td>-</td>-->
+                </tr>
+                <tr>
+                    <th>5限</th>
+                    <!--<td>-</td>-->
+                    <td>実習</td>
+                    <!--<td>-</td>-->
+                    <!--<td>-</td>-->
+                    <!--<td>Web制作</td>-->
+                    <!--<td>-</td>-->
+                </tr>
+            </table>
+
+            <a href="index.html">08_テーブルのインデックスに戻る</a>
+
+
+        </main>
+        <footer>
+            <small>フロントエンド制作</small>
+        </footer>
+
+    </body>
+</html>
